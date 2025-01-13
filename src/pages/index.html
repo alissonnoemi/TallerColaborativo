@@ -4,15 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Taller2/src/estilos.css">
+    <link rel="stylesheet" href="/src/input.css">
     <link rel="stylesheet" href="link rel=" preconnect href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="/Taller2/src/assets/logito.ico">
-    <link href="./output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="/src/img/dani.jpg">
+    <link href="../output.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/src/input.css">
     <title>B-Shop</title>
 </head>
 
@@ -20,115 +24,213 @@
     <header>
         <nav class="flex items-center justify-between px-4 py-2 bg-black text-white">
             <div class="flex items-center">
-                <a href="/Taller2/src/pages/index.html" class="flex items-center">
-                    <img src="/Taller2/src/assets/icon1-removebg-preview.png" alt="Logo" class="h-20 mr-2">
+                <a href="/src/pages/index.html" class="flex items-center">
+                    <img src="/src/img/icon1-removebg-preview.png" alt="Logo" class="h-20 mr-2">
                     <span class="text-base font-semibold">Smile Urban Shop™</span>
                 </a>
 
             </div>
             <div class="flex items-center space-x-6">
                 <button class="focus:outline-none">
-                    <img src="/Taller2/src/assets/lupa.png" alt="Icono 1" class="h-6 w-6">
+                    <img src="/src/img/lupa.png" alt="Icono 1" class="h-6 w-6">
                 </button>
-                <a href="/Taller2/src/pages/">
+                <a href="/src/pages/">
                     <button class="focus:outline-none">
-                        <img src="/Taller2/src/assets/acceso.png" alt="Icono 2" class="h-6 w-6">
+                        <img src="/src/img/acceso.png" alt="Icono 2" class="h-6 w-6">
                     </button>
                 </a>
 
                 <button class="focus:outline-none">
-                    <img src="/Taller2/src/assets/carrito-de-compras.png" alt="Icono 3" class="h-6 w-6">
+                    <img src="/src/img/carrito-de-compras.png" alt="Icono 3" class="h-6 w-6">
                 </button>
             </div>
             <div class="relative">
                 <button class="focus:outline-none flex items-center space-x-2" id="botonm">
-                    <img src="/Taller2/src/assets/menu.png" alt="Menú" class="h-6 w-6">
+                    <img src="/src/img/menu.png" alt="Menú" class="h-6 w-6">
                     <span class="text-sm font-medium">Menú</span>
                 </button>
                 <div class="hidden absolute right-0 mt-2 bg-white text-black rounded shadow-lg w-48" id="menub">
-                    <a href="/Taller2/src/pages/nosotros.html" class="block px-4 py-2 hover:bg-gray-100">Nosotros</a>
-                    <a href="/Taller2/src/pages/productos.html" class="block px-4 py-2 hover:bg-gray-100">Productos</a>
-                    <a href="/Taller2/src/pages/contactos.html" class="block px-4 py-2 hover:bg-gray-100">Contactos</a>
+                    <a href="/src/pages/nosotros.html" class="block px-4 py-2 hover:bg-gray-100">Nosotros</a>
+                    <a href="/src/pages/productos.html" class="block px-4 py-2 hover:bg-gray-100">Productos</a>
+                    <a href="/src/pages/contactos.html" class="block px-4 py-2 hover:bg-gray-100">Contactos</a>
                 </div>
-                <script src="/Taller2/src/js/java.js"></script>
+
             </div>
         </nav>
     </header>
-    <br>
     <header id="encabezado">
-
-        <div id="contenedorLogo">
-
-            <img src="/src/assets/logo 2.jpg" alt="logo" id="imgLogo">
-            <h2 class="titulo1">Tienda Oficial Rels B</h2>
-
+        <div class=" p-4 max-w-md mx-auto">
+            <h1 class="text-center text-4xl font-semibold text-black mb-5">Lo real no pasa de moda.</h1>
         </div>
-
-
     </header>
 
-    <main>
-
-        <div class="contenedor">
-            <div>
-                <div>
-                    <br>
-                    <video muted autoplay loop>
-                        <source src="/video/Rels B - A MÍ (Videoclip Oficial).mp4" type="video/mp4">
-                    </video>
-                    <div class="capa"></div>
-                </div>
-
+    <body>
+        <script src="/src/java/js.js"></script>
+        <div id="carouselExampleCaptions" class="carousel slide" style="width: 50%; margin: auto;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-            <br><br>
-            <div class="textos">
-                <h2 class="tituloDos"> EMPEZAR A VIVIR OTRA VEZ:3 </h2>
-                <p>
-                    Más que una tienda de merchandising, somos un espacio que refleja el estilo de vida urbano y
-                    la
-                    cultura del hip
-                    hop. Inspirados en el universo de Rels B, ofrecemos una selección de productos que van más
-                    allá de
-                    la música.
-                    Desde ropa y accesorios hasta objetos de decoración, aquí encontrarás todo lo que necesitas
-                    para
-                    crear un
-                    ambiente único y personal. Únete al movimiento y expresa tu estilo con nuestros productos."
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/src/img/ima1.webp" class="d-block w-100" alt="img1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/src/img/ima6.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/src/img/img6.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <br>
+            <div class="container mx-auto">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="relative h-96 bg-gray-200">
+                        <img src="/src/img/c1.jpeg" alt="Camisa"
+                            class="absolute inset-0 w-full h-full object-cover blur-sm" />
+                        <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold">
+                            Camisas</h2>
+                    </div>
+                    <div class="relative h-96 bg-gray-200">
+                        <img src="/src/img/gorra1.jpeg" alt="Jeans"
+                            class="absolute inset-0 w-full h-full object-cover blur-sm" />
+                        <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold">
+                            Gorras</h2>
+                    </div>
+                    <div class="relative h-96 bg-gray-200">
+                        <img src="/src/img/p1.jpeg" alt="Accesorios"
+                            class="absolute inset-0 w-full h-full object-cover blur-sm" />
+                        <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold">
+                            Posters</h2>
+                    </div>
+                    <div class="relative h-96 bg-gray-200">
+                        <img src="/src/img/acc1.jpeg" alt="Básicos"
+                            class="absolute inset-0 w-full h-full object-cover blur-sm" />
+                        <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold">
+                            Accesorios</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-between items-center bg-gray-100 p-4">
+            <div class="flex flex-col items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.478 0-8.268-2.943-9.542-7z" />
+                </svg>
+                <p class="text-sm text-gray-500">6 y 8 cuotas sin interés</p>
+                <p class="text-xs text-gray-400">6 cuotas sin interés. Compra mínima $80.00</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 3v2.25m6.364.386l-1.591 1.591M21 12H3m18 0l-4.354 4.354M4.011 17.989l1.591-1.591M21 12H3" />
+                </svg>
+                <p class="text-sm text-gray-500">Envíos gratis</p>
+                <p class="text-xs text-gray-400">Con compras superiores a $100.00</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <svg xmlns="http://www.w3.org/200/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.75 10.5a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zM8.25 10.5a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zM12 15.75v2.25m-4.5-6.75h9m-9 0a3.375 3.375 0 11-.75-3.375 3.375 3.375 0 01.75 3.375zm9 0a3.375 3.375 0 11-.75-3.375 3.375 3.375 0 01.75 3.375z" />
+                </svg>
+                <p class="text-sm text-gray-500">10% off en el pedido</p>
+                <p class="text-xs text-gray-400">Pagos por transferencia</p>
+            </div>
+        </div><br>
+        </div>
+        <div class="bg-gray-200 p-4">
+            <h2 class="text-center text-2xl font-bold">Únete a Smile Urban VIP</h2>
+            <p class="text-center text-gray-700">Obtén acceso exclusivo a nuevos lanzamientos de productos y ofertas
+                especiales.</p>
 
-                </p>
+            <div class="flex items-center justify-center mt-4">
+                <input type="email" placeholder="Introduce la dirección de correo electrónico"
+                    class="px-4 py-2 border border-gray-300 rounded-md flex-1">
+                <button
+                    class="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded ml-2">Unirse</button>
             </div>
         </div>
         <br>
-        <div>
-            <h2 class="tituloTres"> DANIEL HEREDIA </h2>
-            <div class="im">
-                <img src="imagenes/im1.jpg" alt="D">
-            </div>
-            <div>
-                <img src="imagenes/im2.jpg" alt="A">
-                <img src="imagenes/im5.avif" alt="N" width="700px" height="800px">
+    </body>
+    <footer class="bg-black text-white">
+        <div class="container mx-auto py-8">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="flex items-center">
+                        <img src="/src/img/icon1-removebg-preview.png" class="h-8 mr-3" alt="Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap">Smile Urban Shop™</span>
+                    </a>
+                </div>
+                <div class="flex flex-wrap items-center justify-center mb-6 text-base">
+                    <div class="mr-8">
+                        <h5 class="font-bold uppercase mb-3">Atención al cliente</h5>
+                        <ul class="list-disc">
+                            <li><a href="#">Centro de ayuda</a></li>
+                            <li><a href="#">Contacta con nosotros</a></li>
+                            <li><a href="#">Cambios y devoluciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="mr-8">
+                        <h5 class="font-bold uppercase mb-3">Acerca de</h5>
+                        <ul class="list-disc">
+                            <li><a href="#">Política de privacidad</a></li>
+                            <li><a href="#">Política de envíos</a></li>
+                            <li><a href="#">Aviso legal</a></li>
+                        </ul>
+                    </div>
+                    <div class="mr-8">
+                        <h5 class="font-bold uppercase mb-3">Links</h5>
+                        <ul class="list-disc">
+                            <li><a href="/src/pages/productos.html">Boutique™</a></li>
+                            <li><a href="#">B-Shop for Artists™</a></li>
+                            <br>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5 class="font-bold uppercase mb-3">Social</h5>
+                        <ul class="list-none">
+                            <li><a href="https://www.instagram.com/alissn._n/" class="text-white hover:text-gray-400"><i
+                                        class="fab fa-instagram"></i>
+                                    Instagram</a></li>
+                            <li><a href=https://api.whatsapp.com/send?phone=+593958993845&text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n
+                                    class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i>
+                                    WhatsApp</a></li><br>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-    </main>
-
-
-</body>
-
-<hr>
-<br><br>
-<footer id="contacto" class="foo">
-
-    <address class="cont">
-        Contactos: Alisson Guapulema <br>
-        E-mail: aguapulema@itsqmet.edu.ec <br>
-        Celular: 0958993845
-        <br><br>
-        Contactos: Christopher Chasiloa <br>
-        E-mail: chchasiloa@itsqmet.edu.ec <br>
-        Celular: 0999927694
-    </address>
-</footer>
+    </footer>
 
 </html>

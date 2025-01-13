@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="/src/img/im4.webp">
+    <title>Contactos</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="flex items-center justify-between px-4 py-2 bg-black text-white">
+            <div class="flex items-center">
+                <a href="/src/pages/index.html" class="flex items-center">
+                    <img src="/src/img/icon1-removebg-preview.png" alt="Logo" class="h-20 mr-2">
+                    <span class="text-base font-semibold">Smile Urban Shop™</span>
+                </a>
+
+            </div>
+            <div class="flex items-center space-x-6">
+                <button class="focus:outline-none">
+                    <img src="/src/img/lupa.png" alt="Icono 1" class="h-6 w-6">
+                </button>
+                <a href="/Taller2/src/pages/">
+                    <button class="focus:outline-none">
+                        <img src="/src/img/acceso.png" alt="Icono 2" class="h-6 w-6">
+                    </button>
+                </a>
+
+                <button class="focus:outline-none">
+                    <img src="/src/img/carrito-de-compras.png" alt="Icono 3" class="h-6 w-6">
+                </button>
+            </div>
+            <div class="relative">
+                <button class="focus:outline-none flex items-center space-x-2" id="botonm">
+                    <img src="/src/img/menu.png" alt="Menú" class="h-6 w-6">
+                    <span class="text-sm font-medium ">Menú</span>
+                </button>
+                <div class="hidden absolute right-0 mt-2 bg-white text-black rounded shadow-lg w-48" id="menub">
+                    <a href="/src/pages/nosotros.html" class="block px-4 py-2 hover:bg-gray-100">Nosotros</a>
+                    <a href="/src/pages/productos.html" class="block px-4 py-2 hover:bg-gray-100">Productos</a>
+                    <a href="/src/pages/contactos.html" class="block px-4 py-2 hover:bg-gray-100">Contactos</a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <script src="/src/java/js.js"></script>
+    <section class="bg-current text-white py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8 text-black">Contáctanos</h2>
+                <div class="container mx-auto ">
+                    <div class=" grid-cols-1 md:grid-cols-2 gap-7 items-center justify-center text-center text-black">
+                        <div class="tgridext-center md:text-left">
+                            <h2 class="text-3xl font-bold mb-4">¿Tienes alguna pregunta?</h2>
+                            <p class="text-lg leading-relaxed mb-6">Antes de enviar tu solicitud, te invitamos a visitar nuestro apartado de <a href="#" class="text-blue-500 hover:underline">Cambios y devoluciones</a> o nuestras <a href="#" class="text-blue-500 hover:underline">Preguntas frecuentes</a>, donde podrás resolver dudas referentes a temas como restock, tiempos de envío o guías de talla, entre otros.</p>
+                            <p class="text-sm italic mb-4">* Nota importante: Recuerda que los plazos de entrega indicados en el checkout (hasta 10 días hábiles) no incluyen sábados, domingos ni festivos.</p>
+                            <p class="text-sm mb-4">Si no encuentras lo que necesitas, completa el siguiente formulario y te responderemos lo antes posible.</p>
+                            <p class="text-sm">Horario de atención: Lunes a viernes, de 9:00 a 14:00.</p>
+                        </div>
+                        </div>
+                </div>
+            <form class="max-w-md mx-auto">
+                <div class="mb-4">
+                    <label class="block text-gray-400 text-sm font-bold mb-2" for="name">
+                        Nombre
+                    </label>
+                    <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="name" type="text" placeholder="Tu nombre">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-400 text-sm font-bold mb-2" for="email">
+                        Correo electrónico
+                    </label>
+                    <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="email" type="email" placeholder="Tu correo electrónico">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-400 text-sm font-bold mb-2" for="subject">
+                        Motivo de la consulta
+                    </label>
+                    <select
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="subject">
+                        <option value="">Selecciona una opción</option>
+                        <option value="consulta">Consulta general</option>
+                        <option value="pedido">Estado de un pedido</option>
+                        <option value="devolucion">Devolución o cambio</option>
+                    </select>
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-400 text-sm font-bold mb-2" for="message">
+                        Mensaje
+                    </label>
+                    <textarea
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-24"
+                        id="message" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <div class="flex items-center justify-center">
+                    <button
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        type="submit">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+<footer class="bg-black text-white">
+    <div class="container mx-auto py-8">
+        <div class="flex flex-col md:flex-row justify-between">
+            <div class="mb-6 md:mb-0">
+                <a href="#" class="flex items-center">
+                    <img src="/src/img/icon1-removebg-preview.png" class="h-8 mr-3" alt="Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap">Smile Urban Shop™</span>
+                </a>
+            </div>
+            <div class="flex flex-wrap items-center justify-center mb-6 text-base">
+                <div class="mr-8">
+                    <h5 class="font-bold uppercase mb-3">Atención al cliente</h5>
+                    <ul class="list-disc">
+                        <li><a href="#">Centro de ayuda</a></li>
+                        <li><a href="#">Contacta con nosotros</a></li>
+                        <li><a href="#">Cambios y devoluciones</a></li>
+                    </ul>
+                </div>
+                <div class="mr-8">
+                    <h5 class="font-bold uppercase mb-3">Acerca de</h5>
+                    <ul class="list-disc">
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Política de envíos</a></li>
+                        <li><a href="#">Aviso legal</a></li>
+                    </ul>
+                </div>
+                <div class="mr-8">
+                    <h5 class="font-bold uppercase mb-3">Links</h5>
+                    <ul class="list-disc">
+                        <li><a href="/src/pages/productos.html">Boutique™</a></li>
+                        <li><a href="#">B-Shop for Artists™</a></li>
+                        <br>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold uppercase mb-3">Social</h5>
+                    <ul class="list-none">
+                        <li><a href="https://www.instagram.com/alissn._n/" class="text-white hover:text-gray-400"><i
+                                    class="fab fa-instagram"></i>
+                                Instagram</a></li>
+                        <li><a href=https://api.whatsapp.com/send?phone=+593958993845&text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n
+                                class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i>
+                                WhatsApp</a></li><br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>

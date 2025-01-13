@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="flex items-center justify-between px-4 py-2 bg-black text-white">
+            <div class="flex items-center">
+                <a href="/src/pages/index.html" class="flex items-center">
+                    <img src="/src/img/icon1-removebg-preview.png" alt="Logo" class="h-20 mr-2">
+                    <span class="text-base font-semibold">Smile Urban Shop™</span>
+                </a>
+
+            </div>
+            <div class="flex items-center space-x-6">
+                <button class="focus:outline-none">
+                    <img src="/src/img/lupa.png" alt="Icono 1" class="h-6 w-6">
+                </button>
+                <a href="/src/pages/">
+                    <button class="focus:outline-none">
+                        <img src="/src/img/acceso.png" alt="Icono 2" class="h-6 w-6">
+                    </button>
+                </a>
+
+                <button class="focus:outline-none">
+                    <img src="/src/img/carrito-de-compras.png" alt="Icono 3" class="h-6 w-6">
+                </button>
+            </div>
+            <div class="relative">
+                <button class="focus:outline-none flex items-center space-x-2" id="botonm">
+                    <img src="/src/img/menu.png" alt="Menú" class="h-6 w-6">
+                    <span class="text-sm font-medium">Menú</span>
+                </button>
+                <div class="hidden absolute right-0 mt-2 bg-white text-black rounded shadow-lg w-48" id="menub">
+                    <a href="/src/pages/nosotros.html" class="block px-4 py-2 hover:bg-gray-100">Nosotros</a>
+                    <a href="/src/pages/productos.html" class="block px-4 py-2 hover:bg-gray-100">Productos</a>
+                    <a href="/src/pages/contactos.html" class="block px-4 py-2 hover:bg-gray-100">Contactos</a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <script src="/src/java/js.js"></script>
+    <div class="container mx-auto py-12">
+        <h2 class="text-3xl font-bold text-center mb-8">Nuestros Productos</h2>
+        <h1>Camisetas</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/c1.jpeg" alt="Traje de Baño Acid Negre II" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Camiseta Blanca Skin</h3>
+                <p class="text-gray-700">$20</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/c2.jpeg" alt="Remeron Ruatico Over Iggy Negro" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Camiseta Negra B</h3>
+                <p class="text-gray-700">$22</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/c3.jpeg" alt="Pantalon Lino Taronis liegra" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Camiseta Tornet</h3>
+                <p class="text-gray-700">$23</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/c4.jpeg" alt="Remers Over Tes Groove Blencs" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Camiseta Blanca Boy´s</h3>
+                <p class="text-gray-700">$34</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/c5.jpeg" alt="Traje de Baño Acid Negre II" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Camiseta Negra Skin</h3>
+                <p class="text-gray-700">$20</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/c6.jpeg" alt="Remeron Ruatico Over Iggy Negro" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Camiseta Negra New Star</h3>
+                <p class="text-gray-700">$24</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/c7.jpeg" alt="Pantalon Lino Taronis liegra" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Camiseta Blanca Boy´s</h3>
+                <p class="text-gray-700">$34</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/c8.jpeg" alt="Remers Over Tes Groove Blencs" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Camiseta Blanca Flakk</h3>
+                <p class="text-gray-700">$27</p>
+            </div>
+        </div>
+        <br>
+        <h1>Hoodies</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/h1.jpeg" alt="Traje de Baño Acid Negre II" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Hoodie Estampada DH</h3>
+                <p class="text-gray-700">$35</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/h2.jpeg" alt="Remeron Ruatico Over Iggy Negro" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Hoodie Gris</h3>
+                <p class="text-gray-700">$36</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/h3.jpeg" alt="Pantalon Lino Taronis liegra" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Hoodie Gris Cat</h3>
+                <p class="text-gray-700">$30</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/h4.jpeg" alt="Remers Over Tes Groove Blencs" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Hoodie Blue LP</h3>
+                <p class="text-gray-700">$30</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/h5.jpeg" alt="Traje de Baño Acid Negre II" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Hoodie Letras Neón</h3>
+                <p class="text-gray-700">$29</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/h6.jpeg" alt="Remeron Ruatico Over Iggy Negro" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Hoodie Boy´s Don´t Cry</h3>
+                <p class="text-gray-700">$38</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/h7.jpeg" alt="Pantalon Lino Taronis liegra" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Hoodie Black LP</h3>
+                <p class="text-gray-700">$34</p>
+            </div>
+        </div>
+        <br>
+        <h1>Accesorios</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/acc1.jpeg" alt="Traje de Baño Acid Negre II" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Pin Films</h3>
+                <p class="text-gray-700">$10</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/acc2.jpeg" alt="Remeron Ruatico Over Iggy Negro" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Funko Rels B</h3>
+                <p class="text-gray-700">$35</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/acc3.jpeg" alt="Pantalon Lino Taronis liegra" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Pin La Isla</h3>
+                <p class="text-gray-700">$10</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/acc4.jpeg" alt="Remers Over Tes Groove Blencs" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Estampados Personalizados</h3>
+                <p class="text-gray-700">Depende la categoría</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/acc6.jpeg" alt="Traje de Baño Acid Negre II" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Bolso</h3>
+                <p class="text-gray-700">$15</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/acc7.jpeg" alt="Remeron Ruatico Over Iggy Negro" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Almohada</h3>
+                <p class="text-gray-700">$8</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/acc8.jpeg" alt="Pantalon Lino Taronis liegra" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Cobija con tu foto fav</h3>
+                <p class="text-gray-700">$20</p>
+            </div>
+        </div>
+        <br>
+        <h1>Gorras</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/gorra1.jpeg" alt="Traje de Baño Acid Negre II" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Gorra Gris</h3>
+                <p class="text-gray-700">$15</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/gorra2.jpeg" alt="Remeron Ruatico Over Iggy Negro" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Gorra Skinny</h3>
+                <p class="text-gray-700">$15</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/gorra3.jpeg" alt="Pantalon Lino Taronis liegra" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Gorra La Isla</h3>
+                <p class="text-gray-700">$15</p>
+            </div>
+        </div>
+        <br>
+        <h1>Posters</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/p1.jpeg" alt="Traje de Baño Acid Negre II" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">La Isla</h3>
+                <p class="text-gray-700">$5</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/p2.jpeg" alt="Remeron Ruatico Over Iggy Negro" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Happy Birthday</h3>
+                <p class="text-gray-700">$5</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/p3.jpeg" alt="Pantalon Lino Taronis liegra" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">A New Star</h3>
+                <p class="text-gray-700">$5</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <img src="/src/img/p4.jpeg" alt="Remers Over Tes Groove Blencs" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Flakk Daniel´s</h3>
+                <p class="text-gray-700">$5</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<footer class="bg-black text-white">
+    <div class="container mx-auto py-8">
+        <div class="flex flex-col md:flex-row justify-between">
+            <div class="mb-6 md:mb-0">
+                <a href="#" class="flex items-center">
+                    <img src="/src/img/icon1-removebg-preview.png" class="h-8 mr-3" alt="Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap">Smile Urban Shop™</span>
+                </a>
+            </div>
+            <div class="flex flex-wrap items-center justify-center mb-6 text-base">
+                <div class="mr-8">
+                    <h5 class="font-bold uppercase mb-3">Atención al cliente</h5>
+                    <ul class="list-disc">
+                        <li><a href="#">Centro de ayuda</a></li>
+                        <li><a href="#">Contacta con nosotros</a></li>
+                        <li><a href="#">Cambios y devoluciones</a></li>
+                    </ul>
+                </div>
+                <div class="mr-8">
+                    <h5 class="font-bold uppercase mb-3">Acerca de</h5>
+                    <ul class="list-disc">
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Política de envíos</a></li>
+                        <li><a href="#">Aviso legal</a></li>
+                    </ul>
+                </div>
+                <div class="mr-8">
+                    <h5 class="font-bold uppercase mb-3">Links</h5>
+                    <ul class="list-disc">
+                        <li><a href="/src/pages/productos.html">Boutique™</a></li>
+                        <li><a href="#">B-Shop for Artists™</a></li>
+                        <br>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold uppercase mb-3">Social</h5>
+                    <ul class="list-none">
+                        <li><a href="https://www.instagram.com/alissn._n/" class="text-white hover:text-gray-400"><i
+                                    class="fab fa-instagram"></i>
+                                Instagram</a></li>
+                        <li><a href=https://api.whatsapp.com/send?phone=+593958993845&text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n
+                                class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i>
+                                WhatsApp</a></li><br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

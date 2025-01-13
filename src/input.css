@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Selector de tipo*/
+body {
+    font-family: "Roboto Condensed", serif;
+    background-color: white;
+}
+
+.titulo1 {
+    font-optical-sizing: auto;
+    color: rgb(2, 0, 0);
+}
+
+
+/*3. Selector de clase*/
+.tituloDos {
+    font-size: 30px;
+    color: rgb(7, 7, 7);
+    text-align: center;
+}
+
+/*4. Selector ID*/
+#encabezado {
+    background: rgb(187, 182, 182);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    height: 80px;
+}
+
+#imgLogo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+#contenedorLogo {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#img2 {
+    width: 300px;
+    margin-right: 50px;
+    display: flex;
+
+
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.textos {
+    align-items: center;
+    background-color: rgb(146, 145, 145);
+    padding: 55px;
+    position: relative;
+    z-index: 2;
+}
+
+
+#hero {
+    min-height: 100vh;
+    position: relative;
+
+}
+
+video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 10px;
+}
+
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.tituloTres {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.im {
+    text-align: center;
+}
+
+.cont {
+    color: black;
+}
+
